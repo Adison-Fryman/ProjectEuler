@@ -5,10 +5,9 @@ products_of_13 = []
 largest_product_of_13 =0
 
 for i in range(0,(len(num_string) - 12)):
-    product_13=0
-    for j in range (i,i+12):
+    product_13=1
+    for j in range (i,i+13):
         product_13 *= int(num_string[j])
-        print(int(num_string[j]))
         print(product_13)
     products_of_13.append(product_13)
 
@@ -18,3 +17,6 @@ for num in products_of_13:
         largest_product_of_13 = num
 
 print(largest_product_of_13)
+
+print(23514624000-4702924800
+       )
